@@ -1,0 +1,19 @@
+{
+    "name": "Aao hamare adde par",
+    "version": "0.1",
+    "description": "Ek baar aao dubara hum nhi bulayenge",
+    "permissions":[
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ],
+    "Featers_page": "featers.html",
+    "background": {
+        "script": ["background.js"],
+        "persistent": false
+},
+"page_action": {
+    "default_popup": "popup.html",
+   
+"manifest_version": 2
+}}
